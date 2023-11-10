@@ -49,5 +49,6 @@ public class App {
         for (Products prod : list){
             System.out.println(prod.getName() + " _ " + prod.priceTag());
         }
+        sc.close();
     }
 }
